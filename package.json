@@ -1,0 +1,22 @@
+{
+  "name": "clear-toasts",
+  "version": "1.0.0",
+  "description": "Lightweight toast library in pure JS",
+  "main": "dist/toast.js",
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "toast",
+    "notifications",
+    "vanilla",
+    "javascript",
+    "ui"
+  ],
+  "author": "CodureTech",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Skw1/clear-toasts"
+  }
+}
