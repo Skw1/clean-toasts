@@ -1,29 +1,29 @@
-# 🛎️ clear-toasts
+# 🛎️ clean-toasts
 
 A lightweight pure JavaScript toast library with no dependencies.
 
 ## Installation:
 
 ```bash
-npm install clear-toasts
+npm install clean-toasts
 ```
 
 ## Usage:
 
 ```js
-import { Notify } from 'clear-toasts';
+import { Notify } from 'clean-toasts';
 import 'clear-toasts/dist/toast.css';
 
-Notify.success('Sol lucet omnibus');
-Notify.error('Qui timide rogat docet negare');
-Notify.warning('Memento te hominem esse');
-Notify.info('Cogito ergo sum');
+Notify.success('Success');
+Notify.error('Error');
+Notify.warning('Warning');
+Notify.info('Info');
 ```
 
 ## Settings:
 
 ```js
-import { Notify } from 'clear-toasts';
+import { Notify } from 'clean-toasts';
 
 Notify.defaultOptions.duration = 5000;
 ```
