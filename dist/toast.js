@@ -1,5 +1,4 @@
-
-class ClearToasts {
+class CleanToasts {
   constructor(defaultOptions = {}) {
     // Set default parameters
     this.defaultOptions = {
@@ -12,10 +11,10 @@ class ClearToasts {
 
   
   _ensureContainer() {
-    if (!document.getElementById('clear-toast-container')) {
+    if (!document.getElementById('clean-toast-container')) {
       const container = document.createElement('div');
-      container.id = 'clear-toast-container';
-      container.className = 'clear-toast-container';
+      container.id = 'clean-toast-container';
+      container.className = 'clean-toast-container';
       document.body.appendChild(container);
     }
   }
@@ -23,7 +22,7 @@ class ClearToasts {
   
   _createToast(message, type, duration) {
     const toast = document.createElement('div');
-    toast.className = `clear-toast toast-${type}`;
+    toast.className = `clean-toast toast-${type}`;
 
     
     toast.innerHTML = `
@@ -32,7 +31,7 @@ class ClearToasts {
     `;
 
    
-    document.getElementById('clear-toast-container').appendChild(toast);
+    document.getElementById('clean-toast-container').appendChild(toast);
 
     
     toast.querySelector('.toast-close').onclick = () => toast.remove();
@@ -60,4 +59,4 @@ class ClearToasts {
 }
 
 
-export const Notify = new ClearToasts();
+export const Notify = new CleanToasts();

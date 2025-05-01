@@ -1,5 +1,5 @@
 {
-  "name": "clear-toasts",
+  "name": "clean-toasts",
   "version": "1.0.0",
   "description": "Lightweight toast library in pure JS",
   "main": "dist/toast.js",
@@ -17,6 +17,6 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Skw1/clear-toasts"
+    "url": "https://github.com/Skw1/clean-toasts"
   }
 }
